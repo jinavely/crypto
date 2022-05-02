@@ -13,7 +13,7 @@ function Router() {
                     <Route path="chart" element={<Chart />} />
                     <Route path="price" element={<Price />} />
                 </Route>
-                <Route path="/" element={<Coins />} />
+                <Route path="/crypto" element={<Coins />} />
                 <Route path="/*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>

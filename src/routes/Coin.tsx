@@ -162,7 +162,7 @@ function Coin() {
   return (
       <Container>
           <Header>
-              <Link to={`/`}>Home</Link>
+              <Link to={`/crypto`}>Home</Link>
               <Title>
                 {state?.name ? state.name : loading ? "Loading..." : infoData?.name}
               </Title>
